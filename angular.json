@@ -123,5 +123,10 @@
       }
     }
   },
-  "defaultProject": "icon-maker"
+  "defaultProject": "icon-maker",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }

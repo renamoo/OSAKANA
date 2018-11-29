@@ -1,0 +1,5 @@
+<div class="stage" cdkDrop>
+  <div cdkDrag (cdkDragEnded)="onDragEnded()" (cdkDragMoved)="onDrop($event)">
+    <app-hanabi length=300></app-hanabi>
+  </div>
+</div>
